@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF5722</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FF5722</color>
+    <color name="grad1">#FF5700</color>
+    <color name="grad2">#FF4000</color>
+    <color name="beaconc1">#3498db</color>
+    <color name="beaconc2">#f1c40f</color>
+    <color name="holo_blue_dark">#ff0099cc</color>
+    <color name="view_divider_color">#BABABA</color>
+    <color name="view_divider_color_2">#DADADA</color>
+</resources>

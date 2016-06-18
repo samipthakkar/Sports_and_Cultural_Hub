@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="#FFF"
+    tools:context="yasheth.sportsandculturalhub1.T_Cultural">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/btnmusicband"
+        android:layout_gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:layout_margin="5dp"
+        card_view:cardCornerRadius="5dp"
+        android:elevation="10dp"
+        android:clickable="true"
+        android:onClick="onclick">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/menu_musicband"
+                android:id="@+id/musicband"/>
+
+            <ImageView
+                android:id="@+id/musicband1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/bt_musicband"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MUSIC BAND"
+                android:textSize="30sp"
+                android:textColor="#FFFFFF"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@+id/musicband1"
+                android:layout_toEndOf="@+id/musicband1" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/btnsinging"
+            android:layout_gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:layout_margin="5dp"
+            card_view:cardCornerRadius="5dp"
+            android:elevation="10dp"
+            android:clickable="true"
+            android:onClick="onclick">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/menu_singing"
+                    android:id="@+id/singing"/>
+
+                <ImageView
+                    android:id="@+id/singing1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/bt_singing"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SINGING"
+                    android:textSize="30sp"
+                    android:textColor="#FFFFFF"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@+id/singing1"
+                    android:layout_toEndOf="@+id/singing1" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/btnsolodance"
+            android:layout_gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:layout_margin="5dp"
+            card_view:cardCornerRadius="5dp"
+            android:elevation="10dp"
+            android:clickable="true"
+            android:onClick="onclick">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/menu_solodance"
+                    android:id="@+id/solodance"/>
+
+                <ImageView
+                    android:id="@+id/solodance1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/bt_solodance"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SOLO DANCE"
+                    android:textSize="30sp"
+                    android:textColor="#FFFFFF"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@+id/solodance1"
+                    android:layout_toEndOf="@+id/solodance1" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/btnfashion"
+            android:layout_gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:layout_margin="5dp"
+            card_view:cardCornerRadius="5dp"
+            android:elevation="10dp"
+            android:clickable="true"
+            android:onClick="onclick">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/menu_fashion"
+                    android:id="@+id/fashion"/>
+
+                <ImageView
+                    android:id="@+id/fashion1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/bt_fashion"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="FASHION"
+                    android:textSize="30sp"
+                    android:textColor="#FFFFFF"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@+id/fashion1"
+                    android:layout_toEndOf="@+id/fashion1" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/btngroupdance"
+            android:layout_gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:layout_margin="5dp"
+            card_view:cardCornerRadius="5dp"
+            android:elevation="10dp"
+            android:clickable="true"
+            android:onClick="onclick">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/menu_groupdance"
+                    android:id="@+id/groupdance"/>
+
+                <ImageView
+                    android:id="@+id/groupdance1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/bt_groupdance"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="GROUP DANCE"
+                    android:textSize="30sp"
+                    android:textColor="#FFFFFF"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@+id/groupdance1"
+                    android:layout_toEndOf="@+id/groupdance1" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/btndrama"
+            android:layout_gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:layout_margin="5dp"
+            card_view:cardCornerRadius="5dp"
+            android:elevation="10dp"
+            android:clickable="true"
+            android:onClick="onclick">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/menu_drama"
+                    android:id="@+id/drama"/>
+
+                <ImageView
+                    android:id="@+id/drama1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/bt_drama"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DRAMA"
+                    android:textSize="30sp"
+                    android:textColor="#FFFFFF"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@+id/drama1"
+                    android:layout_toEndOf="@+id/drama1" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

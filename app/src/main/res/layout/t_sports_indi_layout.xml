@@ -1,0 +1,80 @@
+    <android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="yasheth.sportsandculturalhub1.T_Sports_Indi"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content">
+                <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                android:id="@+id/t_cov" />
+            </TableRow>
+
+        <TableRow><TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/t_head"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold" /></TableRow>
+
+        <TableRow><TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/t_desc"/></TableRow>
+
+        <TableRow android:layout_marginTop="10dp"><Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:background="@drawable/shape_oval_orange"
+            android:textColor="#FFF"
+            android:id="@+id/btnpushemailsport"
+            android:text="@string/push_email_sport"
+            android:textStyle="italic"
+            android:visibility="visible"
+            android:clickable="true"
+            android:onClick="onClick"/></TableRow>
+
+        <TableRow><Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:background="@drawable/shape_oval_orange"
+            android:textColor="#FFF"
+            android:id="@+id/btnannouncesport"
+            android:text="@string/announcement_sport"
+            android:textStyle="italic"
+            android:visibility="visible"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            android:onClick="onClick"/></TableRow>
+
+        <TableRow><Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:background="@drawable/shape_oval_orange"
+            android:textColor="#FFF"
+            android:id="@+id/btnpushsport"
+            android:text="@string/push_noti_sport"
+            android:textStyle="italic"
+            android:visibility="visible"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            android:onClick="onClick"/></TableRow>
+
+    </TableLayout>
+
+</android.support.v4.widget.NestedScrollView>

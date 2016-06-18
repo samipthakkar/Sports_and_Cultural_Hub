@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Sports and Cultural HUB</string>
+    <string name="title_activity_s__news">News Feed</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_s__sports">Sports</string>
+    <string name="title_activity_s__cultural">Cultural Activities</string>
+    <string name="title_activity_t__sports">Sports</string>
+    <string name="title_activity_t__cultural">Cultural Activities</string>
+    <string name="reg_sport">Register For This Sport</string>
+    <string name="push_email_sport">Send email to all the registered students</string>
+    <string name="announcement_sport">Make Announcement Regarding this Sport</string>
+    <string name="push_noti_sport">Push Notify all the registered students</string>
+    <string name="reg_cultural">Register For This Cultural Activity</string>
+    <string name="push_email_cultural">Send email to all the registered students</string>
+    <string name="announcement_cultural">Make Announcement Regarding this Cultural Activity</string>
+    <string name="push_noti_cultural">Push Notify all the registered students</string>
+    <string name="title_activity_temporary">Temporary</string>
+    <string name="makeannouncement">Make Announcement!</string>
+    <string name="sendemail">Send Email!</string>
+</resources>

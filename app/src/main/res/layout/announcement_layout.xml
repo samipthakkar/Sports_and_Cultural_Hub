@@ -1,0 +1,61 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="yasheth.sportsandculturalhub1.Announcement"
+    tools:showIn="@layout/announcement_layout"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Subject"
+            android:textSize="15sp"/>
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etsubject"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Short Description"
+            android:textSize="15sp"/>
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="5"
+            android:id="@+id/etshortdesc"/>
+
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check this to post the content on news feed."
+            android:id="@+id/announcementcheck"
+            android:gravity="center"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/makeannouncement"
+            android:layout_marginTop="10dp"
+            android:id="@+id/makeannouncement"
+            android:background="@drawable/shape_oval_orange"
+            android:textColor="#FFF"
+            android:clickable="true"
+            android:onClick="onclick"/>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

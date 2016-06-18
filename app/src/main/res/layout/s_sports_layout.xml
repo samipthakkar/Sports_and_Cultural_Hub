@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="#FFF"
+    tools:context="yasheth.sportsandculturalhub1.S_Sports">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/btnfootball"
+            android:layout_gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:layout_margin="5dp"
+            card_view:cardCornerRadius="5dp"
+            android:elevation="10dp"
+            android:clickable="true"
+            android:onClick="onclick">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/menu_football"
+                    android:id="@+id/football"/>
+
+                <ImageView
+                    android:id="@+id/football1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/bt_football"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="FOOTBALL"
+                    android:textSize="30sp"
+                    android:textColor="#FFFFFF"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@+id/football1"
+                    android:layout_toEndOf="@+id/football1" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/btncricket"
+            android:layout_gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:layout_margin="5dp"
+            card_view:cardCornerRadius="5dp"
+            android:elevation="10dp"
+            android:clickable="true"
+            android:onClick="onclick">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/menu_cricket"
+                    android:id="@+id/singing"/>
+
+                <ImageView
+                    android:id="@+id/singing1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/bt_cricket"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CRICKET"
+                    android:textSize="30sp"
+                    android:textColor="#FFFFFF"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@+id/singing1"
+                    android:layout_toEndOf="@+id/singing1" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/btnbasketball"
+            android:layout_gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:layout_margin="5dp"
+            card_view:cardCornerRadius="5dp"
+            android:elevation="10dp"
+            android:clickable="true"
+            android:onClick="onclick">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/menu_basketball"
+                    android:id="@+id/solodance"/>
+
+                <ImageView
+                    android:id="@+id/solodance1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/bt_basketball"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BASKETBALL"
+                    android:textSize="30sp"
+                    android:textColor="#FFFFFF"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@+id/solodance1"
+                    android:layout_toEndOf="@+id/solodance1" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/btntabletennis"
+            android:layout_gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:layout_margin="5dp"
+            card_view:cardCornerRadius="5dp"
+            android:elevation="10dp"
+            android:clickable="true"
+            android:onClick="onclick">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/menu_tabletennis"
+                    android:id="@+id/fashion"/>
+
+                <ImageView
+                    android:id="@+id/fashion1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/bt_tabletennis"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TABLETENNIS"
+                    android:textSize="30sp"
+                    android:textColor="#FFFFFF"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@+id/fashion1"
+                    android:layout_toEndOf="@+id/fashion1" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/btntennis"
+            android:layout_gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:layout_margin="5dp"
+            card_view:cardCornerRadius="5dp"
+            android:elevation="10dp"
+            android:clickable="true"
+            android:onClick="onclick">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/menu_tennis"
+                    android:id="@+id/groupdance"/>
+
+                <ImageView
+                    android:id="@+id/groupdance1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/bt_tennis"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TENNIS"
+                    android:textSize="30sp"
+                    android:textColor="#FFFFFF"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@+id/groupdance1"
+                    android:layout_toEndOf="@+id/groupdance1" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/btnvolleyball"
+            android:layout_gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:layout_margin="5dp"
+            card_view:cardCornerRadius="5dp"
+            android:elevation="10dp"
+            android:clickable="true"
+            android:onClick="onclick">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/menu_volleyball"
+                    android:id="@+id/drama"/>
+
+                <ImageView
+                    android:id="@+id/drama1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/bt_volleyball"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="VOLLEYBALL"
+                    android:textSize="30sp"
+                    android:textColor="#FFFFFF"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@+id/drama1"
+                    android:layout_toEndOf="@+id/drama1" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
